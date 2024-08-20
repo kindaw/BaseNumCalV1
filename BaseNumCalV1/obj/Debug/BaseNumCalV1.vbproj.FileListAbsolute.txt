@@ -1,0 +1,12 @@
+D:\work\Code\p3\vsbasic\BaseNumCalV1\BaseNumCalV1\bin\Debug\BaseNumCalV1.exe.config
+D:\work\Code\p3\vsbasic\BaseNumCalV1\BaseNumCalV1\bin\Debug\BaseNumCalV1.exe
+D:\work\Code\p3\vsbasic\BaseNumCalV1\BaseNumCalV1\bin\Debug\BaseNumCalV1.pdb
+D:\work\Code\p3\vsbasic\BaseNumCalV1\BaseNumCalV1\bin\Debug\BaseNumCalV1.xml
+D:\work\Code\p3\vsbasic\BaseNumCalV1\BaseNumCalV1\obj\Debug\BaseNumCalV1.vbproj.AssemblyReference.cache
+D:\work\Code\p3\vsbasic\BaseNumCalV1\BaseNumCalV1\obj\Debug\BaseNumCalV1.Form1.resources
+D:\work\Code\p3\vsbasic\BaseNumCalV1\BaseNumCalV1\obj\Debug\BaseNumCalV1.Resources.resources
+D:\work\Code\p3\vsbasic\BaseNumCalV1\BaseNumCalV1\obj\Debug\BaseNumCalV1.vbproj.GenerateResource.cache
+D:\work\Code\p3\vsbasic\BaseNumCalV1\BaseNumCalV1\obj\Debug\BaseNumCalV1.vbproj.CoreCompileInputs.cache
+D:\work\Code\p3\vsbasic\BaseNumCalV1\BaseNumCalV1\obj\Debug\BaseNumCalV1.exe
+D:\work\Code\p3\vsbasic\BaseNumCalV1\BaseNumCalV1\obj\Debug\BaseNumCalV1.xml
+D:\work\Code\p3\vsbasic\BaseNumCalV1\BaseNumCalV1\obj\Debug\BaseNumCalV1.pdb
