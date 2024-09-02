@@ -30,6 +30,7 @@ Partial Class Form1
         Me.lblOct = New System.Windows.Forms.Label()
         Me.lblDec = New System.Windows.Forms.Label()
         Me.lblHex = New System.Windows.Forms.Label()
+        Me.lblstop = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'txtHex
@@ -37,9 +38,10 @@ Partial Class Form1
         Me.txtHex.BackColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(49, Byte), Integer))
         Me.txtHex.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!)
         Me.txtHex.ForeColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer))
-        Me.txtHex.Location = New System.Drawing.Point(152, 227)
+        Me.txtHex.Location = New System.Drawing.Point(152, 369)
+        Me.txtHex.Multiline = True
         Me.txtHex.Name = "txtHex"
-        Me.txtHex.Size = New System.Drawing.Size(592, 49)
+        Me.txtHex.Size = New System.Drawing.Size(1173, 96)
         Me.txtHex.TabIndex = 0
         '
         'txtDec
@@ -47,9 +49,10 @@ Partial Class Form1
         Me.txtDec.BackColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(49, Byte), Integer))
         Me.txtDec.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!)
         Me.txtDec.ForeColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer))
-        Me.txtDec.Location = New System.Drawing.Point(152, 172)
+        Me.txtDec.Location = New System.Drawing.Point(152, 266)
+        Me.txtDec.Multiline = True
         Me.txtDec.Name = "txtDec"
-        Me.txtDec.Size = New System.Drawing.Size(592, 49)
+        Me.txtDec.Size = New System.Drawing.Size(1173, 97)
         Me.txtDec.TabIndex = 1
         '
         'txtOct
@@ -57,9 +60,10 @@ Partial Class Form1
         Me.txtOct.BackColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(49, Byte), Integer))
         Me.txtOct.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!)
         Me.txtOct.ForeColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer))
-        Me.txtOct.Location = New System.Drawing.Point(152, 117)
+        Me.txtOct.Location = New System.Drawing.Point(152, 163)
+        Me.txtOct.Multiline = True
         Me.txtOct.Name = "txtOct"
-        Me.txtOct.Size = New System.Drawing.Size(592, 49)
+        Me.txtOct.Size = New System.Drawing.Size(1173, 97)
         Me.txtOct.TabIndex = 2
         '
         'txtBin
@@ -68,8 +72,9 @@ Partial Class Form1
         Me.txtBin.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!)
         Me.txtBin.ForeColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer))
         Me.txtBin.Location = New System.Drawing.Point(152, 62)
+        Me.txtBin.Multiline = True
         Me.txtBin.Name = "txtBin"
-        Me.txtBin.Size = New System.Drawing.Size(592, 49)
+        Me.txtBin.Size = New System.Drawing.Size(1173, 97)
         Me.txtBin.TabIndex = 3
         '
         'lblBin
@@ -88,7 +93,7 @@ Partial Class Form1
         Me.lblOct.AutoSize = True
         Me.lblOct.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!)
         Me.lblOct.ForeColor = System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.lblOct.Location = New System.Drawing.Point(44, 120)
+        Me.lblOct.Location = New System.Drawing.Point(44, 166)
         Me.lblOct.Name = "lblOct"
         Me.lblOct.Size = New System.Drawing.Size(107, 42)
         Me.lblOct.TabIndex = 5
@@ -99,7 +104,7 @@ Partial Class Form1
         Me.lblDec.AutoSize = True
         Me.lblDec.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!)
         Me.lblDec.ForeColor = System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.lblDec.Location = New System.Drawing.Point(43, 175)
+        Me.lblDec.Location = New System.Drawing.Point(43, 269)
         Me.lblDec.Name = "lblDec"
         Me.lblDec.Size = New System.Drawing.Size(107, 42)
         Me.lblDec.TabIndex = 6
@@ -110,18 +115,30 @@ Partial Class Form1
         Me.lblHex.AutoSize = True
         Me.lblHex.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!)
         Me.lblHex.ForeColor = System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.lblHex.Location = New System.Drawing.Point(45, 230)
+        Me.lblHex.Location = New System.Drawing.Point(45, 372)
         Me.lblHex.Name = "lblHex"
         Me.lblHex.Size = New System.Drawing.Size(105, 42)
         Me.lblHex.TabIndex = 7
         Me.lblHex.Text = "HEX:"
+        '
+        'lblstop
+        '
+        Me.lblstop.AutoSize = True
+        Me.lblstop.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblstop.ForeColor = System.Drawing.Color.Red
+        Me.lblstop.Location = New System.Drawing.Point(395, 4)
+        Me.lblstop.Name = "lblstop"
+        Me.lblstop.Size = New System.Drawing.Size(609, 55)
+        Me.lblstop.TabIndex = 8
+        Me.lblstop.Text = "Hey stop you gona broke it!"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(49, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(800, 347)
+        Me.ClientSize = New System.Drawing.Size(1337, 544)
+        Me.Controls.Add(Me.lblstop)
         Me.Controls.Add(Me.lblHex)
         Me.Controls.Add(Me.lblDec)
         Me.Controls.Add(Me.lblOct)
@@ -145,4 +162,5 @@ Partial Class Form1
     Friend WithEvents lblOct As Label
     Friend WithEvents lblDec As Label
     Friend WithEvents lblHex As Label
+    Friend WithEvents lblstop As Label
 End Class

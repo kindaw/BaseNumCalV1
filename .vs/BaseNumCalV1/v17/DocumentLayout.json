@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\work\\Code\\p3\\vsbasic\\BaseNumCalV1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A29DDBC1-67F9-4D3F-8928-5A90110029C7}|BaseNumCalV1\\BaseNumCalV1.vbproj|D:\\work\\Code\\p3\\vsbasic\\BaseNumCalV1\\basenumcalv1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{A29DDBC1-67F9-4D3F-8928-5A90110029C7}|BaseNumCalV1\\BaseNumCalV1.vbproj|solutionrelative:basenumcalv1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A29DDBC1-67F9-4D3F-8928-5A90110029C7}|BaseNumCalV1\\BaseNumCalV1.vbproj|d:\\work\\code\\p3\\vsbasic\\basenumcalv1\\basenumcalv1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{A29DDBC1-67F9-4D3F-8928-5A90110029C7}|BaseNumCalV1\\BaseNumCalV1.vbproj|solutionrelative:basenumcalv1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A29DDBC1-67F9-4D3F-8928-5A90110029C7}|BaseNumCalV1\\BaseNumCalV1.vbproj|D:\\work\\Code\\p3\\vsbasic\\BaseNumCalV1\\basenumcalv1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{A29DDBC1-67F9-4D3F-8928-5A90110029C7}|BaseNumCalV1\\BaseNumCalV1.vbproj|solutionrelative:basenumcalv1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A29DDBC1-67F9-4D3F-8928-5A90110029C7}|BaseNumCalV1\\BaseNumCalV1.vbproj|D:\\work\\Code\\p3\\vsbasic\\BaseNumCalV1\\basenumcalv1\\form1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.vb",
               "DocumentMoniker": "D:\\work\\Code\\p3\\vsbasic\\BaseNumCalV1\\BaseNumCalV1\\Form1.vb",
               "RelativeDocumentMoniker": "BaseNumCalV1\\Form1.vb",
               "ToolTip": "D:\\work\\Code\\p3\\vsbasic\\BaseNumCalV1\\BaseNumCalV1\\Form1.vb",
               "RelativeToolTip": "BaseNumCalV1\\Form1.vb",
-              "ViewState": "AQIAABEAAAAAAAAAAAAswCsAAAAIAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAADwvzkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-08-20T10:11:48.573Z",
               "IsPinned": true,
@@ -54,22 +54,20 @@
               "RelativeDocumentMoniker": "BaseNumCalV1\\Form1.Designer.vb",
               "ToolTip": "D:\\work\\Code\\p3\\vsbasic\\BaseNumCalV1\\BaseNumCalV1\\Form1.Designer.vb",
               "RelativeToolTip": "BaseNumCalV1\\Form1.Designer.vb",
-              "ViewState": "AQIAACEAAAAAAAAAAAAowDIAAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJwAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-08-20T10:38:24.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T10:38:24.028Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.vb [Design]",
               "DocumentMoniker": "D:\\work\\Code\\p3\\vsbasic\\BaseNumCalV1\\BaseNumCalV1\\Form1.vb",
               "RelativeDocumentMoniker": "BaseNumCalV1\\Form1.vb",
               "ToolTip": "D:\\work\\Code\\p3\\vsbasic\\BaseNumCalV1\\BaseNumCalV1\\Form1.vb [Design]",
               "RelativeToolTip": "BaseNumCalV1\\Form1.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-08-20T10:11:46.958Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-08-20T10:11:46.958Z"
             }
           ]
         }
