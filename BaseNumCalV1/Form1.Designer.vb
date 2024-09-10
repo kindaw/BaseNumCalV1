@@ -30,7 +30,6 @@ Partial Class Form1
         Me.lblOct = New System.Windows.Forms.Label()
         Me.lblDec = New System.Windows.Forms.Label()
         Me.lblHex = New System.Windows.Forms.Label()
-        Me.lblstop = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'txtHex
@@ -121,24 +120,12 @@ Partial Class Form1
         Me.lblHex.TabIndex = 7
         Me.lblHex.Text = "HEX:"
         '
-        'lblstop
-        '
-        Me.lblstop.AutoSize = True
-        Me.lblstop.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblstop.ForeColor = System.Drawing.Color.Red
-        Me.lblstop.Location = New System.Drawing.Point(395, 4)
-        Me.lblstop.Name = "lblstop"
-        Me.lblstop.Size = New System.Drawing.Size(609, 55)
-        Me.lblstop.TabIndex = 8
-        Me.lblstop.Text = "Hey stop you gona broke it!"
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(49, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1337, 544)
-        Me.Controls.Add(Me.lblstop)
         Me.Controls.Add(Me.lblHex)
         Me.Controls.Add(Me.lblDec)
         Me.Controls.Add(Me.lblOct)
@@ -162,5 +149,4 @@ Partial Class Form1
     Friend WithEvents lblOct As Label
     Friend WithEvents lblDec As Label
     Friend WithEvents lblHex As Label
-    Friend WithEvents lblstop As Label
 End Class
